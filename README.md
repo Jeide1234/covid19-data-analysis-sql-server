@@ -6,7 +6,12 @@ This project analyses a global COVID-19 dataset using Microsoft SQL Server to un
 
 The analysis focuses on transforming raw COVID-19 data into meaningful insights through SQL querying, aggregation, ranking, and KPI calculations.
 
-🔍 SQL script: Covid19_SQL_Analysis.sql
+🎯 Project Objective
+
+To analyse global COVID-19 trends using SQL Server by examining infection rates, mortality rates, vaccination coverage, and regional performance across countries and continents.
+
+🔍 Full SQL script available in:
+Covid19_SQL_Analysis.sql
 
 📊 Background
 
@@ -80,38 +85,43 @@ KPI Calculations
 Data Modelling
 Data Exploration
 
-📈 Key Insights:
-Highest Total Cases by Country
-United States recorded the highest number of confirmed cases.
-China and India followed closely behind.
-Several European countries featured prominently in the Top 10.
-Vaccination Analysis
-Gibraltar achieved the highest vaccination coverage relative to population.
-Several smaller nations demonstrated exceptionally high vaccination rates.
-Continent Analysis
-Africa recorded the highest calculated death rate among continents.
-Asia recorded the lowest death rate in the analysis.
-Vaccination coverage varied significantly between continents.
+📈 Key Insights
+
+### Top COVID-19 Cases
+
+- United States recorded over 103 million confirmed cases, the highest in the dataset.
+- China ranked second with approximately 99 million cases.
+- India ranked third with approximately 45 million cases.
+
+### Vaccination Coverage
+
+- Gibraltar achieved the highest vaccination coverage at over 110%.
+- Several smaller nations exceeded 90% vaccination coverage.
+- Vaccination rates varied significantly across countries.
+
+### Continent-Level Analysis
+
+- Africa recorded the highest death rate (1.98%).
+- South America followed closely at 1.96%.
+- Oceania recorded the lowest death rate (0.22%).
 
 🖼️ Sample Analysis Outputs
 
-## Top 3 Countries Within Each Continent by Total Cases
+## Top 10 Countries by Total Cases
 
-![Top 3 Countries by Continent](images/top3_countries_by_continent.png)
-
-## Highest Death Rate by Continent
-
-![Top 3 Countries by Continent](images/continent_death_rate.png)
+![Top 10 Countries by Total Cases](images/top_cases.png)
 
 ## Top 10 Countries by Vaccination Percentage
 
-Some territories reported vaccination rates above 100% due to differences between vaccination records and population estimates in the source dataset.
+![Top 10 Countries by Vaccination Percentage](images/vaccination_rate.png)
 
-![Top 3 Countries by Continent](images/vaccination_rate.png)
+## Highest Death Rate by Continent
 
-## Top 10 Countries by Total Cases
+![Highest Death Rate by Continent](images/continent_death_rate.png)
 
-![Top 3 Countries by Continent](images/top_cases.png)
+## Top 3 Countries Within Each Continent by Total Cases
+
+![Top 3 Countries Within Each Continent by Total Cases](images/top3_countries_by_continent.png)
 
 💻 Tools Used
 Microsoft SQL Server
@@ -126,4 +136,8 @@ README.md
 
 🚀 Conclusion
 
-This project demonstrates how SQL can be used to answer business-focused analytical questions through data modelling, aggregation, ranking, and KPI calculations. It highlights the importance of understanding data behaviour and selecting the appropriate analytical approach to generate accurate insights.
+This project demonstrates the use of SQL Server for exploratory analysis, KPI calculation, ranking, and continent-level reporting on global COVID-19 data.
+
+Through joins, aggregations, subqueries, CTEs, and window functions, raw data was transformed into actionable insights that highlight infection trends, mortality rates, and vaccination coverage across countries and continents.
+
+The project also demonstrates the integration of SQL and Power BI to communicate analytical findings through clear visualisations.
