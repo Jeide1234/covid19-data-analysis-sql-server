@@ -10,8 +10,7 @@ The analysis focuses on transforming raw COVID-19 data into meaningful insights 
 
 To analyse global COVID-19 trends using SQL Server by examining infection rates, mortality rates, vaccination coverage, and regional performance across countries and continents.
 
-🔍 Full SQL script available in:
-Covid19_SQL_Analysis.sql
+🔍 Full SQL script available here: [Covid19_SQL_Analysis.sql](Covid19_SQL_Analysis.sql)
 
 📊 Background
 
