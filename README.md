@@ -105,6 +105,8 @@ Vaccination coverage varied significantly between continents.
 
 ## Top 10 Countries by Vaccination Percentage
 
+Some territories reported vaccination rates above 100% due to differences between vaccination records and population estimates in the source dataset.
+
 ![Top 3 Countries by Continent](images/vaccination_rate.png)
 
 ## Top 10 Countries by Total Cases
