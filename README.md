@@ -1,9 +1,9 @@
-COVID-19 Data Analysis using SQL Server
-Project Overview
+**COVID-19 Data Analysis using SQL Server**
+**Project Overview**
 
 This project analyses a global COVID-19 dataset using Microsoft SQL Server.
 
-The analysis explores:
+**The analysis explores:**
 
 Total COVID cases
 Total COVID deaths
