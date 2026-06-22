@@ -108,7 +108,9 @@ Top 10 Countries by Vaccination Percentage
 
 Top 3 Countries Within Each Continent by Total Cases
 
-(Insert screenshot here)
+
+
+
 
 💻 Tools Used
 Microsoft SQL Server
