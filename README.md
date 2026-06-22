@@ -94,35 +94,28 @@ Asia recorded the lowest death rate in the analysis.
 Vaccination coverage varied significantly between continents.
 
 🖼️ Sample Analysis Outputs
-Highest Death Rate by Continent
-
-(Insert screenshot here)
-
-Top 10 Countries by Total Cases
-
-(Insert screenshot here)
-
-Top 10 Countries by Vaccination Percentage
-
-(Insert screenshot here)
 
 ## Top 3 Countries Within Each Continent by Total Cases
-
-### SQL Query
-![SQL Query](images/top3countries_sql.png)
-
-### Output Visualization
-![Chart](images/top3countries_chart.png)
-## Top 3 Countries Within Each Continent by Total Cases
-
-Using a Common Table Expression (CTE) and ROW_NUMBER(), countries were ranked within each continent based on their highest reported total COVID-19 cases.
 
 ![Top 3 Countries by Continent](images/top3_countries_by_continent.png)
+
+## Highest Death Rate by Continent
+
+![Top 3 Countries by Continent](images/continent_death_rate.png)
+
+## Top 10 Countries by Vaccination Percentage
+
+![Top 3 Countries by Continent](images/vaccination_rate.png)
+
+## Top 10 Countries by Total Cases
+
+![Top 3 Countries by Continent](images/top_cases.png)
 
 💻 Tools Used
 Microsoft SQL Server
 SQL Server Management Studio (SSMS)
 GitHub
+PowerBI
 
 📂 Repository Contents
 Covid19_SQL_Analysis.sql
