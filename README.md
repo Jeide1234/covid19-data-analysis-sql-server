@@ -15,17 +15,29 @@ The COVID-19 pandemic generated vast amounts of data across countries and contin
 Using a dimensional data model consisting of country, case, and vaccination tables, this project explores key global COVID-19 trends.
 
 ❓ Business Questions Answered
+
 How many countries are in the dataset?
+
 What is the earliest and latest date available?
+
 Which countries recorded the highest total COVID-19 cases?
+
 Which countries recorded the highest total COVID-19 deaths?
+
 Which countries had the highest COVID-19 death rates?
+
 Which countries vaccinated the highest percentage of their population?
+
 Which continent recorded the highest total COVID-19 cases?
+
 Which continent recorded the highest death rate?
+
 Which continent recorded the highest vaccination rate?
+
 Which countries exceeded 1 million confirmed cases?
+
 How do countries rank by total cases?
+
 Which are the Top 3 countries within each continent by total cases?
 
 🗂️ Dataset Structure
