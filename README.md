@@ -106,11 +106,18 @@ Top 10 Countries by Vaccination Percentage
 
 (Insert screenshot here)
 
-Top 3 Countries Within Each Continent by Total Cases
+## Top 3 Countries Within Each Continent by Total Cases
 
+### SQL Query
+![SQL Query](images/top3countries_sql.png)
 
+### Output Visualization
+![Chart](images/top3countries_chart.png)
+## Top 3 Countries Within Each Continent by Total Cases
 
+Using a Common Table Expression (CTE) and ROW_NUMBER(), countries were ranked within each continent based on their highest reported total COVID-19 cases.
 
+![Top 3 Countries by Continent](images/top3_countries_by_continent.png)
 
 💻 Tools Used
 Microsoft SQL Server
