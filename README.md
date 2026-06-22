@@ -1,4 +1,5 @@
 COVID-19 Data Analysis using SQL Server
+
 📌 Introduction
 
 This project analyses a global COVID-19 dataset using Microsoft SQL Server to uncover trends in cases, deaths, vaccination rates, and continent-level performance.
@@ -26,9 +27,10 @@ Which continent recorded the highest vaccination rate?
 Which countries exceeded 1 million confirmed cases?
 How do countries rank by total cases?
 Which are the Top 3 countries within each continent by total cases?
-🗂️ Dataset Structure
-DimCountry
 
+🗂️ Dataset Structure
+
+DimCountry
 Contains:
 
 Country
@@ -36,8 +38,8 @@ Continent
 Population
 GDP per Capita
 Human Development Index
-CovidCasesDaily
 
+CovidCasesDaily
 Contains:
 
 Date
@@ -45,14 +47,16 @@ Total Cases
 New Cases
 Total Deaths
 New Deaths
-CovidVaccinationsDaily
 
+CovidVaccinationsDaily
 Contains:
 
 Total Vaccinations
 People Vaccinated
 People Fully Vaccinated
-🛠️ SQL Skills Demonstrated
+
+🛠️ SQL Skills Demonstrated:
+
 INNER JOIN
 Aggregate Functions (COUNT, MAX, SUM)
 GROUP BY
@@ -63,7 +67,8 @@ Window Functions (ROW_NUMBER, RANK)
 KPI Calculations
 Data Modelling
 Data Exploration
-📈 Key Insights
+
+📈 Key Insights:
 Highest Total Cases by Country
 United States recorded the highest number of confirmed cases.
 China and India followed closely behind.
@@ -75,6 +80,7 @@ Continent Analysis
 Africa recorded the highest calculated death rate among continents.
 Asia recorded the lowest death rate in the analysis.
 Vaccination coverage varied significantly between continents.
+
 🖼️ Sample Analysis Outputs
 Highest Death Rate by Continent
 
@@ -96,10 +102,12 @@ Top 3 Countries Within Each Continent by Total Cases
 Microsoft SQL Server
 SQL Server Management Studio (SSMS)
 GitHub
+
 📂 Repository Contents
 Covid19_SQL_Analysis.sql
 README.md
 /images
+
 🚀 Conclusion
 
 This project demonstrates how SQL can be used to answer business-focused analytical questions through data modelling, aggregation, ranking, and KPI calculations. It highlights the importance of understanding data behaviour and selecting the appropriate analytical approach to generate accurate insights.
